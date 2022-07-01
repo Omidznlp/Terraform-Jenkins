@@ -34,9 +34,7 @@ please go to Manage Jenkins >  Configure Credential Providers > change Providers
 To add Terraform Pipeline,
 Go to new item > Enter an item name > choose Pipline > Click OK
 
-To add Jenkinsfile > Go to Pipline > Select "Pipline script from SCM" > Insert
-
-Repository URL (<https://github.com/Omidznlp/Terraform-Jenkins.git>)
+To add Jenkinsfile > Go to Advanced Project Options > In Pipline Section > Select "Pipline script from SCM" . > Select "Git" in SCM section > Insert Repository URL (<https://github.com/Omidznlp/Terraform-Jenkins.git>) in Repositoriis Section
 
 ![ec2modual](https://user-images.githubusercontent.com/87664653/176857451-f854c3ea-9cc7-482a-a7c6-cc7d8ef2af5d.png)
 
