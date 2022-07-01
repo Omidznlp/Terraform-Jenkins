@@ -62,5 +62,6 @@ Go to Manage Jenkins > Click "Manage nodes and clouds" > Select setting (left si
 Note! Simply, you can change the label on the Jenkinsfile or choose your node from your node lists from which you would like to execute terraform and then add the "master" label to it.
 
 ### Run Jenkins Pipline
+![pipiline1](https://user-images.githubusercontent.com/87664653/176860962-6dc95216-ce5a-40ef-bdfa-91df51f5472b.png)
 
 
