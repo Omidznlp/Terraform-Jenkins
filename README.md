@@ -1,7 +1,8 @@
 # Terraform-Jenkins
-This repository helps to build infrastructure such as AWS using Terraform with Jenkins Pipeline.
-### Jenkins and Terraform and AWS
 
+This repository helps to build infrastructure such as AWS using Terraform with Jenkins Pipeline.
+
+### Jenkins and Terraform and AWS
 
 ![Screen Shot 2021-07-01 at 4 43 17 PM](https://user-images.githubusercontent.com/87664653/173849388-eeff12a6-806a-4a1e-8c40-a25af72267c8.png)
 
@@ -10,7 +11,8 @@ This repository helps to build infrastructure such as AWS using Terraform with J
 ### Install Terraform plugin
 
 To Install Terraform plugin,
-Go to Manage Jenkins > Manage Plugins >Available > search Terraform.\
+
+Go to Manage Jenkins > Manage Plugins >Available > search Terraform >  Choose to install Terraform plugin.
 
 ### Add AWS Credentiols
 
