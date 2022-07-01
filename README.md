@@ -38,9 +38,11 @@ To add Jenkinsfile > Go to Pipline > Select "Pipline script from SCM" > Insert
 
 Repository URL (<https://github.com/Omidznlp/Terraform-Jenkins.git>)
 
+![ec2modual](https://user-images.githubusercontent.com/87664653/176857451-f854c3ea-9cc7-482a-a7c6-cc7d8ef2af5d.png)
 
 In Section Branches to build, Insert (*/master) > In Script Path, Insert (Jenkinsfile) > Click Save.
 
+![ec22](https://user-images.githubusercontent.com/87664653/176857521-71b2672d-4ec1-4846-bd4d-b7bcd96107e3.png)
 
 ## Jenkins Nodes Label
 
@@ -56,6 +58,8 @@ I used agent with "master" label to build Terraform Pipile, In Jenkinsfile into 
 
 I gave my Jenkins server the label "master," and then I ran Terraform on it.
 Go to Manage Jenkins > Click "Manage nodes and clouds" > Select setting (left side of the list of nodes) > Under the label section, add "master" > Save it.
+
+![nodelabel](https://user-images.githubusercontent.com/87664653/176857627-0857c869-59e9-40ce-98e3-0992a9e871cc.png)
 
 Note! Simply, you can change the label on the Jenkinsfile or choose your node from your node lists from which you would like to execute terraform and then add the "master" label to it.
 
