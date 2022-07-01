@@ -44,7 +44,7 @@ In Section Branches to build, Insert (*/master) > In Script Path, Insert (Jenkin
 
 ## Jenkins Nodes Label
 
-I used master node to build Terraform Pipile, In Jenkins file into repositoy you can find it.
+I used agent with "master" label to build Terraform Pipile, In Jenkinsfile into repositoy you can find it.
 
 ```
     agent {
@@ -57,8 +57,8 @@ I used master node to build Terraform Pipile, In Jenkins file into repositoy you
 I gave my Jenkins server the label "master," and then I ran Terraform on it.
 Go to Manage Jenkins > Click "Manage nodes and clouds" > Select setting (left side of the list of nodes) > Under the label section, add "master" > Save it.
 
-Note! Simply, you can change the label on the jenkins file or choose your node from your node lists from which you want to execute terraform and add the "master" label to it.
+Note! Simply, you can change the label on the Jenkinsfile or choose your node from your node lists from which you would like to execute terraform and then add the "master" label to it.
 
 ### Run Jenkins Pipline
 
-![jeankens-pipline](https://user-images.githubusercontent.com/87664653/174333990-f6b5789d-13cc-4d00-817e-75516f4f0018.png)
+
